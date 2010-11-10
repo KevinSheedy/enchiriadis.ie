@@ -1,0 +1,30 @@
+div.performanceListTitle
+{
+	padding:5px;
+}
+
+div.performanceContainer
+{
+	border-top:1px solid gray;
+	padding: 5px 0px;
+}
+
+div.performanceDate
+{
+	float:left;
+	padding:5px;
+	font-size:16px;
+}
+
+div.performanceSummary
+{
+	padding:5px;
+	font-size:16px;
+}
+
+div.performanceDescription
+{
+	padding:0px 5px 5px 5px;
+	font-size:16px;
+	color:white;
+}

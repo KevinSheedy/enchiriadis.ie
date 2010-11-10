@@ -1,0 +1,137 @@
+.LayerHidden
+{z-index: 0;}
+.LayerBackground
+{z-index: 1;}
+.LayerBehindMain
+{z-index: 5;}
+.LayerMain
+{z-index: 10;}
+.LayerMainMenu
+{z-index: 20;}
+.LayerFront
+{z-index: 50;}
+
+html, body
+{
+	background: #000 url(../images/NationalGeographic/narrowTallAntarcticCloudLessSkyBlur.png) repeat-x;
+	text-align: center;
+}
+
+#MainImage
+{
+	margin:0px auto;
+}
+
+div#MainContainer
+{
+	/*position: absolute;*/
+	/*background: transparent;*/
+	width: 900px; /*opera needs this*/
+	margin: 0px auto;
+}
+
+div#MainContent
+{
+	margin: 5% 15% 5% 15%;
+	background: #990033;
+	opacity: 0.9;
+}
+
+#Trailer
+{
+	/*margin: 5% 15% 5% 15%;*/
+	background: orange;
+	position: fixed;
+	bottom: 20px;
+	left: 50%;
+}
+
+
+/*
+#AjaxImage
+{
+	z-index: 5;
+	border: 2px inset #000080;
+}
+*/
+div#MainMenu
+{
+	width: 900px;
+	margin: 0px auto 11px auto;
+}
+
+div#Jukebox>Object
+{
+	display:block;
+	margin: 0px auto 11px auto;
+}
+
+div#SubMenu
+{
+	margin-left: 0%;
+	margin-right: 0%;
+	position: fixed;
+	background: blue;
+	/*z-index: 3;*/
+	
+	/*	margin: 0 auto;*/
+	width: 100%;
+	/*margin-left: auto;
+	margin-right: auto;*/
+    display: block;
+	opacity: 0.8;	
+}
+
+a
+{
+	opacity: 1;
+	color: BlanchedAlmond;
+	font-size:x-large;
+}
+
+ul
+{
+	margin-left: 0px; /*ie7 inherits this property from the containing div if not specified here*/
+	margin-right: 0px;
+	text-align: center; /*Centers the list items in the list*/
+	/*border: 2px inset #000080; /*dbg*/
+	padding: 0 0 0 0; /*firefox seems to have a default left padding of 40*/
+	height: 100%;
+}
+
+#MainMenu li
+{
+	height: 100px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-left: 0px;
+	margin-right: 0px;
+	display:inline;
+	color: blue;
+	border: 2px inset #000080; /*dbg*/
+	background-color: #ddd9da;
+	background-image: url('../images/button_gold.png');
+}
+
+div#BackGroundContainer
+{ 
+	background-image: url('../thumb.php?image=test.jpg');
+	/*background-image: url('images/EnchBackground5.gif');*/
+	/*background-image: url('images/2007_0603Downings0069.JPG');*/
+	/*background-image: url('images/EnchLogoColourSmall.png');*/
+	background-repeat: repeat;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	opacity: 0.75;
+}
+
+div.GalleryThumb
+{
+	float: left;
+	padding: 10px 10px 10px 10px;
+	background-color: #ddd9da;
+}
+

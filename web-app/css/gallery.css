@@ -1,0 +1,19 @@
+#Gallery
+{
+	margin:0px auto;
+	text-align:center;
+}
+
+.GalleryFolder
+{
+	margin:20px 20px;
+	display:inline-block;
+	text-decoration:none;
+}
+
+.GalleryFolderTitle
+{
+	display:block;
+	margin:0px auto;
+	text-align:center;
+}

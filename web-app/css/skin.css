@@ -1,0 +1,28 @@
+html, body
+{
+	/*background: #FFF url(/images/redSky.jpg) repeat-x;*/
+	/*background-image:url('/images/EnchBackground2.gif');*/
+	background-color: #FFF;
+	background-image: url(/graphics/redSky.jpg);
+	background-attachment:fixed;
+}
+
+h1
+{
+	font-size:26px;
+}
+
+#newsArticles
+{
+	background: transparent url(/graphics/stripe.png) repeat scroll left top
+}
+
+.articleTitle
+{
+	border: 1px solid black;
+}
+
+.articleBody
+{
+	
+}

@@ -1,0 +1,121 @@
+
+
+
+#MainLogo
+{
+	/*margin:0px auto;
+	width:900px;*/
+	display:inline;
+}
+
+div#MainContainer
+{
+	/*position: absolute;*/
+	/*background: transparent;*/
+	width: 900px; /*opera needs this*/
+	/*height:520px;*/
+	margin: 0px auto;
+	clear:both;
+}
+/*
+div#MainContent
+{
+	margin: 5% 15% 5% 15%;
+	background: #990033;
+	opacity: 0.9;
+}
+*/
+div#MainMenu
+{
+	/*width: 900px;
+	margin: 0px auto 11px auto;*/
+	display:inline;
+}
+
+
+#MainMenu ul
+{
+	display:inline;
+	position:relative;
+	/*bottom:60px;*/
+}
+
+#MainMenu li
+{
+	display:inline;
+}
+
+div.article
+{
+	/*opacity:0.1;*/
+	/*background-color:black;*/
+	/*border:2px solid blue;*/
+}
+
+.article p
+{
+	/*opacity:0.1;*/
+	padding:10px;
+}
+
+#MainMenu li
+{
+	float:left;
+	margin-top:86px;
+	/*padding-bottom:55px;*/
+}
+
+#MainMenu li.Banner
+{
+	margin-top:0px;
+}
+
+p
+{
+	font-size:20px;
+	color:white;
+}
+
+div.articleBackground
+{
+	/*border:2px solid green;*/
+	width:900px;
+	height:900px;
+	position:absolute;
+	background-color:black;
+	opacity:0.2;
+}
+
+#trailor
+{
+	margin-top:15px;
+	margin-right:auto;
+	margin-left:auto;
+	margin-bottom:15px;
+	clear:both;
+}
+
+#trailor img
+{
+	height:48px;
+	margin-right:20px;
+}
+
+#performanceList
+{
+	width: 180px;
+	float: left;
+}
+
+#newsArticles
+{
+	float:right;
+	border:1px solid black;
+	width:180px;
+}
+
+#mainImageContainer
+{
+	float:left;
+	padding: 0px 15px;
+}
