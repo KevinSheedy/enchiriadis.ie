@@ -3,7 +3,7 @@ html, body
 	/*background: #FFF url(/images/redSky.jpg) repeat-x;*/
 	/*background-image:url('/images/EnchBackground2.gif');*/
 	background-color: #FFF;
-	background-image: url(/graphics/redSky.jpg);
+	background-image: url(/enchiriadis.ie/images/redSky.jpg);
 	background-attachment:fixed;
 }
 
@@ -14,7 +14,7 @@ h1
 
 #newsArticles
 {
-	background: transparent url(/graphics/stripe.png) repeat scroll left top
+	background: transparent url(/enchiriadis.ie/images/stripe.png) repeat scroll left top
 }
 
 .articleTitle

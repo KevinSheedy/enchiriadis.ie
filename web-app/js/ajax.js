@@ -9,7 +9,7 @@ function updatePageFromHash()
 		pageName = 'index';
 	}
 	
-	$("#MainContainer").load(pageName + ".php #MainContainer", initUpdatedPage); //Don't confuse the url hash fragment and the css id hash.
+	$("#MainContainer").load(pageName + ".gsp #MainContainer", initUpdatedPage); //Don't confuse the url hash fragment and the css id hash.
 	//document.write("&lt;script type='text/javascript' src='javascript/gallery.js'&gt;&lt;/script&gt;");
 	//document.write('hello world');
 }

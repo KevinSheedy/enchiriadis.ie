@@ -1,1 +1,1 @@
-<?php require("SiteUnderConstruction.php");?>
+<g:render template="SiteUnderConstruction"/>

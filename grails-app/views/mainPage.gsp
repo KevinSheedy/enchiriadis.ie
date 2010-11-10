@@ -1,3 +1,6 @@
-<?php require("top.php");?>
-<!--?php require("home.php");?-->
-<?php require("bottom.php");?>
+<g:render template="top"/>
+
+
+
+
+<g:render template="bottom"/>

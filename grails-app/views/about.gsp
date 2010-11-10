@@ -1,1 +1,1 @@
-<?php require("blurb.php");?>
+<g:render template="blurb"/>

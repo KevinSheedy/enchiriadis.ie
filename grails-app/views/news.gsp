@@ -1,1 +1,1 @@
-<?php require("pressReleaseWhitacre.php");?>
+<g:render template="pressReleaseWhitacre"/>

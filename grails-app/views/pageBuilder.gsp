@@ -1,4 +1,4 @@
-<?php require("top.php");?>
+<g:render template="top"/>
 
 <?php
 	echo "dbg";
@@ -7,4 +7,4 @@
 	//echo 'Hello ' . htmlspecialchars($_GET["name"]) . '!';
 ?>
 	
-<?php require("bottom.php");?>
+<g:render template="bottom"/>

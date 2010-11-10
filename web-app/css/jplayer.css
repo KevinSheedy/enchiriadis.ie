@@ -79,34 +79,34 @@ div#player_volume_bar_value
 	cursor: pointer;
 }
 #player_play {
-	background: url("/graphics/sprites.jpg") 0 0 no-repeat;
+	background: url("/enchiriadis.ie/images/sprites.jpg") 0 0 no-repeat;
 }
 #player_play.jqjp_hover {
-	background: url("/graphics/sprites.jpg") -41px 0 no-repeat;
+	background: url("/enchiriadis.ie/images/sprites.jpg") -41px 0 no-repeat;
 }
 #player_pause {
-	background: url("/graphics/sprites.jpg") 0 -42px no-repeat;
+	background: url("/enchiriadis.ie/images/sprites.jpg") 0 -42px no-repeat;
 }
 #player_pause.jqjp_hover {
-	background: url("/graphics/sprites.jpg") -41px -42px no-repeat;
+	background: url("/enchiriadis.ie/images/sprites.jpg") -41px -42px no-repeat;
 }
 
 #ctrl_prev {
 	position: absolute;
 	left:20px;
 	top:6px;
-	background: url("/graphics/sprites.jpg") 0 -112px no-repeat;
+	background: url("/enchiriadis.ie/images/sprites.jpg") 0 -112px no-repeat;
 	width:28px;
 	height:28px;
 	cursor: pointer;
 }
 
 #ctrl_prev:hover {
-	background: url("/graphics/sprites.jpg") -29px -112px no-repeat;
+	background: url("/enchiriadis.ie/images/sprites.jpg") -29px -112px no-repeat;
 }
 
 #ctrl_prev.disabled {
-	background: url("/graphics/sprites.jpg") -58px -112px no-repeat;
+	background: url("/enchiriadis.ie/images/sprites.jpg") -58px -112px no-repeat;
 	cursor:default;
 }
 
@@ -114,18 +114,18 @@ div#player_volume_bar_value
 	position: absolute;
 	left:88px;
 	top:6px;
-	background: url("/graphics/sprites.jpg") 0 -141px no-repeat;
+	background: url("/enchiriadis.ie/images/sprites.jpg") 0 -141px no-repeat;
 	width:28px;
 	height:28px;
 	cursor: pointer;
 }
 
 #ctrl_next:hover {
-	background: url("/graphics/sprites.jpg") -29px -141px no-repeat;
+	background: url("/enchiriadis.ie/images/sprites.jpg") -29px -141px no-repeat;
 }
 
 #ctrl_next.disabled {
-	background: url("/graphics/sprites.jpg") -58px -141px no-repeat;
+	background: url("/enchiriadis.ie/images/sprites.jpg") -58px -141px no-repeat;
 	cursor:default;
 }
 
@@ -134,13 +134,13 @@ div#player_volume_bar_value
 	position: absolute;
 	left:126px;
 	top:6px;
-	background: url("/graphics/sprites.jpg") 0 -83px no-repeat;
+	background: url("/enchiriadis.ie/images/sprites.jpg") 0 -83px no-repeat;
 	width:28px;
 	height:28px;
 	cursor: pointer;
 }
 #player_stop.jqjp_hover {
-	background: url("/graphics/sprites.jpg") -29px -83px no-repeat;
+	background: url("/enchiriadis.ie/images/sprites.jpg") -29px -83px no-repeat;
 }
 #player_progress {
 	position: absolute;
@@ -151,16 +151,16 @@ div#player_volume_bar_value
 	height:15px;
 }
 #player_progress_load_bar {
-	background: url("/graphics/bar_load.gif")  top left repeat-x;
+	background: url("/enchiriadis.ie/images/bar_load.gif")  top left repeat-x;
 	width:0px;
 	height:15px;
 	cursor: pointer;
 }
 #player_progress_load_bar.jqjp_buffer {
-	background: url("/graphics/bar_buffer.gif")  top left repeat-x;
+	background: url("/enchiriadis.ie/images/bar_buffer.gif")  top left repeat-x;
 }
 #player_progress_play_bar {
-	background: url("/graphics/bar_play.gif") top left repeat-x ;
+	background: url("/enchiriadis.ie/images/bar_play.gif") top left repeat-x ;
 	width:0px;
 	height:15px;
 }
@@ -168,7 +168,7 @@ div#player_volume_bar_value
 	position: absolute;
 	left:296px;
 	top:12px;
-	background: url("/graphics/sprites.jpg") 0 -170px no-repeat;
+	background: url("/enchiriadis.ie/images/sprites.jpg") 0 -170px no-repeat;
 	width:18px;
 	height:15px;
 	cursor: pointer;
@@ -178,32 +178,32 @@ div#player_volume_bar_value
 	position: absolute;
 	left:368px;
 	top:12px;
-	background: url("/graphics/sprites.jpg") 0 -186px no-repeat;
+	background: url("/enchiriadis.ie/images/sprites.jpg") 0 -186px no-repeat;
 	width:18px;
 	height:15px;
 	cursor: pointer;
 }
 
 #player_volume_min.jqjp_hover {
-	background: url("/graphics/sprites.jpg") -19px -170px no-repeat;
+	background: url("/enchiriadis.ie/images/sprites.jpg") -19px -170px no-repeat;
 }
 
 #player_volume_max.jqjp_hover {
-	background: url("/graphics/sprites.jpg") -19px -186px no-repeat;
+	background: url("/enchiriadis.ie/images/sprites.jpg") -19px -186px no-repeat;
 }
 
 #player_volume_bar {
 	position: absolute;
 	left:314px;
 	top:17px;
-	/*background: url("/graphics/volume_bar.gif") repeat-x top left;*/
+	/*background: url("/enchiriadis.ie/images/volume_bar.gif") repeat-x top left;*/
 	background-color:#EEEEEE;
 	width:46px;
 	height:5px;
 	cursor: pointer;
 }
 #player_volume_bar_value {
-	/*background: url("/graphics/volume_bar_value.gif") repeat-x top left;*/
+	/*background: url("/enchiriadis.ie/images/volume_bar_value.gif") repeat-x top left;*/
 	background-color:turquoise;
 	width:0px;
 	height:5px;
