@@ -7,7 +7,10 @@ $(document).ready(function(){
 
 	var myPlayList = [
 		{name:"Have Yourself A Merry Little Christmas",filename:"http://www.enchiriadis.ie/content/audio/Have Yourself A Merry Little Christmas.mp3"},
-		{name:"That Yonge Child (Solo Claire Sheedy)",filename:"http://www.enchiriadis.ie/content/audio/That Yonge Child (Solo Claire Sheedy).mp3"}
+		{name:"That Yonge Child (Solo Claire Sheedy)",filename:"http://www.enchiriadis.ie/content/audio/That Yonge Child (Solo Claire Sheedy).mp3"},
+		{name:"That Yonge Child (Solo Claire Sheedy)",filename:"/enchiriadis.ie/mp3/getAudio/1"}
+		
+		
 	];
 
 

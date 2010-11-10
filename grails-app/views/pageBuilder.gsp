@@ -1,4 +1,4 @@
-<g:render template="top"/>
+<g:render template="/top"/>
 
 <?php
 	echo "dbg";
@@ -7,4 +7,4 @@
 	//echo 'Hello ' . htmlspecialchars($_GET["name"]) . '!';
 ?>
 	
-<g:render template="bottom"/>
+<g:render template="/bottom"/>

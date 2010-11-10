@@ -15,7 +15,7 @@
 
 <body>
 	
-	<g:render template="jplayer"/>
+	<g:render template="/jplayer"/>
 	
 	
 </body>

@@ -1,5 +1,8 @@
-<?php
-//echo $_URL;
-//var_dump($_REQUEST);
-var_dump($_SERVER);
-?>
+<!DOCTYPE HTML>
+<html>
+
+<body>
+
+<audio src="/enchiriadis.ie/mp3/getAudio/1" controls="controls">dbg</audio>
+</body>
+</html>

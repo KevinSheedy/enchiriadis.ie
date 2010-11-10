@@ -1,1 +1,1 @@
-<g:render template="pressReleaseWhitacre"/>
+<g:render template="/pressReleaseWhitacre"/>

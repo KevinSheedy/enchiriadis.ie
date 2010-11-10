@@ -1,1 +1,1 @@
-<g:render template="SiteUnderConstruction"/>
+<g:render template="/SiteUnderConstruction"/>

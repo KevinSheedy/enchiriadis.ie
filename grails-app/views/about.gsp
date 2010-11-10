@@ -1,1 +1,1 @@
-<g:render template="blurb"/>
+<g:render template="/blurb"/>

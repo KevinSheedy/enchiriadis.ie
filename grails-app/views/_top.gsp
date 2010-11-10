@@ -22,7 +22,7 @@
 	
 </head>
 <body>
-	<g:render template="jplayer"/>
+	<g:render template="/jplayer"/>
 	<h6 style="font-size:32px">Site Under Construction...</h6>
 
 	<!--Jukebox-->
