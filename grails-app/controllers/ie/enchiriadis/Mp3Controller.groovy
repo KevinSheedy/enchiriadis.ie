@@ -13,6 +13,12 @@ class Mp3Controller {
         [mp3InstanceList: Mp3.list(params), mp3InstanceTotal: Mp3.count()]
     }
 
+    def jsonList = {
+        params.max = Math.min(params.max ? params.int('max') : 10, 100)
+
+		render(view: "jsonList", model: [mp3InstanceList: Mp3.list(params), mp3InstanceTotal: Mp3.count()])
+    }
+
     def create = {
         def mp3Instance = new Mp3()
         mp3Instance.properties = params
@@ -21,6 +27,7 @@ class Mp3Controller {
 
     def save = {
         def mp3Instance = new Mp3(params)
+		mp3Instance.name = params.audio.fileItem.fileName
         if (mp3Instance.save(flush: true)) {
             flash.message = "${message(code: 'default.created.message', args: [message(code: 'mp3.label', default: 'Mp3'), mp3Instance.id])}"
             redirect(action: "show", id: mp3Instance.id)
