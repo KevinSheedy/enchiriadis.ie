@@ -40,7 +40,7 @@
 </div>
 
 <div id="mainImageContainer">
-	<img src="/enchiriadis.ie/images/convent.jpg" style="width:580px"></img>
+	<img src="/images/convent.jpg" style="width:580px"></img>
 </div>
 
 <div id="newsArticles" style="display:none">

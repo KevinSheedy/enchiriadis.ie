@@ -85,3 +85,5 @@ log4j = {
 
     warn   'org.mortbay.log'
 }
+
+grails.app.context = "/"

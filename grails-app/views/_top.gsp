@@ -1,7 +1,14 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-	<title>Enchiriadis</title>
+	<title>Enchiriadis Choir</title>
+
+
+	<g:each in="${metaInstanceList}" status="i" var="metaInstance">
+		<meta name="${metaInstance.name}" content="${metaInstance.value}"/>
+	</g:each>
+
+
 
 	<link rel="stylesheet" type="text/css" href="<g:resource dir="css" file="browserReset.css"/>"></link>
 	<link rel="stylesheet" type="text/css" href="<g:resource dir="css" file="structure.css"/>"></link>
@@ -23,7 +30,7 @@
 </head>
 <body>
 	<g:render template="/jplayer"/>
-	<h6 style="font-size:32px">Site Under Construction...</h6>
+	<!--h6 style="font-size:32px">Site Under Construction...</h6-->
 
 	<!--Jukebox-->
 	<!--div id="Jukebox" class="LayerMainMenu">
@@ -37,7 +44,7 @@
 		<img src="/images/EnchiriadisBannerSmall.png"></img>
 	</span-->
 	
-	<div style="width:900px; margin:0px auto">
+	<div style="width:930px; margin:0px auto">
 	
 	<!--Font Papyrus-->
 	<!--div id="MainLogo">
@@ -48,10 +55,11 @@
 	
 		<div id="MainMenu">
 			<ul>
-				<li class="Banner"><a href="/#"><img src="/enchiriadis.ie/images/EnchBanner.png"></img></a></li>
-				<li><a href="#about"><img src="/enchiriadis.ie/images/Menu/About.png"></img></a></li>
-				<li><a href="#video"><img src="/enchiriadis.ie/images/Menu/Video.png"></img></a></li>
-				<li><a href="#news"><img src="/enchiriadis.ie/images/Menu/News.png"></img></a></li>
+				<li class="Banner"><a href="/#"><img src="/images/EnchBanner.png"></img></a></li>
+				<li><a href="#about"><img src="/images/Menu/About.png"></img></a></li>
+				<li><a href="#video"><img src="/images/Menu/Video.png"></img></a></li>
+				<li><a href="#news"><img src="/images/Menu/News.png"></img></a></li>
+				<li><a href="#contact"><img src="/images/Menu/Contact.png"></img></a></li>
 			</ul>
 		</div>
 	
