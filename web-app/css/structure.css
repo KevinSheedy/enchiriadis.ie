@@ -119,3 +119,14 @@ div.articleBackground
 	float:left;
 	padding: 0px 15px;
 }
+
+#trailorImages{
+	margin: 0px auto;
+	width: 630px;
+}
+
+#trailorLinks{
+	margin: 0px auto;
+	width: 630px;
+	text-align: center;
+}

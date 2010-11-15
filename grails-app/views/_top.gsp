@@ -3,12 +3,9 @@
 <head>
 	<title>Enchiriadis Choir</title>
 
-
 	<g:each in="${metaInstanceList}" status="i" var="metaInstance">
 		<meta name="${metaInstance.name}" content="${metaInstance.value}"/>
 	</g:each>
-
-
 
 	<link rel="stylesheet" type="text/css" href="<g:resource dir="css" file="browserReset.css"/>"></link>
 	<link rel="stylesheet" type="text/css" href="<g:resource dir="css" file="structure.css"/>"></link>
