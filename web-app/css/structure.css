@@ -12,7 +12,7 @@ div#MainContainer
 {
 	/*position: absolute;*/
 	/*background: transparent;*/
-	width: 900px; /*opera needs this*/
+	width: 1000px; /*opera needs this*/
 	/*height:520px;*/
 	margin: 0px auto;
 	clear:both;
@@ -118,6 +118,7 @@ div.articleBackground
 {
 	float:left;
 	padding: 0px 15px;
+	clear: none;
 }
 
 #trailorImages{
@@ -129,4 +130,12 @@ div.articleBackground
 	margin: 0px auto;
 	width: 630px;
 	text-align: center;
+}
+
+#facebookContainer{
+	float: right;
+}
+
+#contactUsContainer{
+	margin: 0px auto;
 }

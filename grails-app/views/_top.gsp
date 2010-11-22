@@ -41,7 +41,7 @@
 		<img src="/images/EnchiriadisBannerSmall.png"></img>
 	</span-->
 	
-	<div style="width:930px; margin:0px auto">
+	<div style="width:1000px; margin:0px auto">
 	
 	<!--Font Papyrus-->
 	<!--div id="MainLogo">
